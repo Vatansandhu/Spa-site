@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+        * {
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+         .container {
+            /* border: 2px solid black; */
+            height: 1400px;
+         }
+            .header {
+            /* border: 2px solid brown; */
+            height: 250px;
+        }
+        #headercenter{
+            /* border: 2px solid rgb(166, 226, 209); */
+            font-size: 40px;
+            text-align: center;
+            color: rgb(152, 202, 76);
+            width: 300px;
+            margin: 10px;
+            margin-left: 430px;
+            
+
+
+        }
+        #headerright {
+            height: 50px;
+            width: 300px;
+            margin-left: 820px;
+            margin-top: -58.5px;
+            color: rgb(152, 202, 76);
+            text-align: center;
+            font-size: 16px;
+            padding: 15px ;
+            }  
+
+            .nav {
+            /* border: 2px solid rgb(99, 42, 165);   */
+            height: 100px;
+        }
+        ul {
+            list-style-type: none ;
+            margin-top: 30px;
+            padding: 10px;
+            overflow: hidden;
+            background-color: whitesmoke;
+            width: 900px;
+            margin: auto;
+        }
+        li {
+           float: left;
+        }
+
+        li a {
+            display: block;
+            color: black;
+            text-align: center;
+            padding: 10px 2px ;
+            text-decoration: none;
+            left: 30px;
+            margin-left: 80px;
+            font-size: 12px;
+
+        }
+        li a:hover {
+            color: rgb(111, 137, 72);
+            border-left: 50px;
+        }
+        .active {
+           background-color: rgb(233, 229, 229);
+           width: 60px;
+        }
+        .a {
+            /* border: 2px solid lightcoral; */
+            height: 100px;
+            width: 1100px;
+            display: flex;
+            margin-left: 50px;
+        }
+        .aleft {
+            /* border: 2px solid gold; */
+            margin-top: 25px;
+            
+            font-size: 25px;
+            color: rgb(131, 163, 83);
+            margin-left: 50px;
+            /* display: flex; */
+            
+
+        }
+         
+        .acenter {
+            /* border: 2px solid gold; */
+            margin-left: 100px;
+            margin-top: 25px;
+            font-size: 15px;
+            /* display: flex; */
+            color: grey;
+            
+             }
+             .aright {
+            /* height: 100px;
+            width: 950px; */
+           margin-top: 25px;
+            font-size: 15px;
+            margin-left: 50px;
+            color: grey;
+             }
+
+             .b {
+                display: flex;
+                height: 500px;
+                width: 1100px;
+                /* border: 2px solid rgb(111, 58, 168); */
+                margin-left: 50px;
+
+
+
+             }
+
+             .b1 {
+                /* border: 2px solid rgb(61, 42, 165); */
+                height: 450px;
+                width: 500px;
+                margin-top: 10px;
+                margin-left: 50px;
+
+             }
+             .b2 {
+                margin-left: 200px;
+                margin-top: 10px;
+                color: grey;
+                /* border: 2px solid brown; */
+                height: 400px;
+                width: 300px;
+               
+
+                
+
+             }
+
+
+             .c {
+            height: 50px;
+            width: 1100px;
+            /* border: 2px solid indigo; */
+            margin-left: 80px;
+            margin-top: 100px;
+        }
+        .u{
+            text-align: right;
+            display: flex;
+            color: rgb(82, 107, 43);
+            height: 10px;
+            width: 10px;
+            margin-left: 1050px;
+            margin-top: -70px;
+            border: 1px solid white;
+        }
+        .u:hover{
+            background-color: white;
+        }
+   .footer {
+     
+     position: fixed;
+     float: right;
+     bottom: 0;
+     right: 0;
+     background-color: greenyellow;
+     padding: 15px 25px;
+   }
+ </style>       
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+           <div id="headercenter"><img src="D:\Web Designing Codes\CSS\spa logo1.jpg" height="40px">The Health Spa</div>
+           <div id="headerright"><a href="#log in" style="color:rgb(124, 158, 73);">Log in</a></div>
+
+           <ul><li><a href="Spa page 1.html">HOME</a></li>
+            <li><a href="spa page 2.html">THE SPA</a>  </li>  
+                <li><a href="spa page 3.html">BOOK ONLINE</a></li>  
+                    <li><a href="spa page 4.html">PACKAGES</a>  </li>
+                        <li><a href="spa page 5.html">ABOUT US</a></li>  
+                            <li><a class="active" href="spa page 6.html">CONTACT</a> </li> </ul>
+                            <div class="a">
+                            <div class="aleft">CONTACT</div>
+                                <div class="acenter">500 Terry Francine St.<br> San Francisco, CA 94158<br>info@mysite.com</div>
+                                <div class="aright">Tel: 123-456-7890<br>Fax: 123-456-7890</div></div></div>
+                                
+                                <div class="b">
+
+                                    <div class="b1">
+                                        <img src="D:\Web Designing Codes\CSS\spa map.jpg" width="490px">
+                                    </div>
+
+                                
+                                <div class="b2"><form>
+                                    <input type="text" value="Name" style="width: 300px; color: gray;"><br><br>
+                                    <input type="text" value="Email" style="width: 300px; color: gray;"><br><br>
+                                    <input type="text" value="Subject" style="width: 300px; color: gray;"><br><br>
+                                    <input type="text" value="Message" style="width: 300px; height:300px; color: gray;">
+                                </form></div></div>
+                                <div class="u"><a href="Submit" style="color:rgb(124, 158, 73);">Submit</a></div>
+
+                                <div class="c">
+                                    <div class="footer">Let's Chat</div>
+</body>
+</html>

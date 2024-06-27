@@ -1,0 +1,395 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+        * {
+           margin: 0px;
+           padding: 0px;
+           box-sizing: border-box;
+       }
+        .container {
+           /* border: 2px solid black; */
+           height: 1400px;
+        }
+           .header {
+           /* border: 2px solid brown; */
+           height: 250px;
+       }
+       #headercenter{
+           /* border: 2px solid rgb(166, 226, 209); */
+           font-size: 40px;
+           text-align: center;
+           color: rgb(152, 202, 76);
+           width: 300px;
+           margin: 10px;
+           margin-left: 430px;
+           
+
+
+       }
+       #headerright {
+           height: 50px;
+           width: 300px;
+           margin-left: 820px;
+           margin-top: -58.5px;
+           color: rgb(152, 202, 76);
+           text-align: center;
+           font-size: 16px;
+           padding: 15px ;
+           }  
+
+           .nav {
+           /* border: 2px solid rgb(99, 42, 165);   */
+           height: 100px;
+       }
+       ul {
+           list-style-type: none ;
+           margin-top: 30px;
+           padding: 10px;
+           overflow: hidden;
+           background-color: whitesmoke;
+           width: 900px;
+           margin: auto;
+       }
+       li {
+          float: left;
+       }
+
+       li a {
+           display: block;
+           color: black;
+           text-align: center;
+           padding: 10px 2px ;
+           text-decoration: none;
+           left: 30px;
+           margin-left: 80px;
+           font-size: 12px;
+
+       }
+       li a:hover {
+           color: rgb(111, 137, 72);
+           border-left: 50px;
+       }
+       .active {
+          background-color: rgb(233, 229, 229);
+          width: 100px;
+       }
+       .aleft {
+           /* border: 2px solid gold; */
+           height: 150px;
+           width: 1280px;
+           display: flex;
+           padding: 20px;
+           font-size: 20px;
+           color: rgb(131, 163, 83);
+           margin-left: 50px;
+           
+
+       }
+        
+       .aright {
+           /* border: 2px solid gold; */
+           height: 100px;
+           width: 950px;
+           /* display: flex; */
+           margin-top: -20px;
+           padding: 16px;
+           font-size: 14px;
+           margin-left: 95px;
+           color: rgb(18, 24, 9);
+           
+            }
+            .x {
+                display: flex;
+                /* border:  2px solid hotpink; */
+                height: 400px;
+                width: 1100px;
+                margin-left: 90px;
+
+            }
+
+            .a {
+                border: 2px solid rgb(20, 15, 1);
+                height: 400px;
+                width: 280px;
+                display: block;
+                margin-left: 70px;
+                
+
+
+
+            }
+            .a1 {
+                font-size: 20px;
+                color: rgb(103, 99, 99);
+                margin-left: 80px;
+                margin-top: 50px;
+            }
+            .a2 {
+                font-size: 60px;
+                margin-left: 65px;
+                color: rgb(56, 54, 54);
+                margin-top: 25px;
+            }
+            .a3 {
+                font-size: 15px;
+                color: rgb(81, 77, 77);
+                margin-left: 60px;
+                margin-top: 25px;
+            }
+            .a4 {
+                font-size: 13px;
+                color: rgb(73, 70, 70);
+                margin-left: 75px;
+                margin-top: 25px;
+            }
+            .a5 {
+                font-size: 14px;
+                margin: 5px;
+                color: rgb(80, 76, 76);
+                margin-top: 25px;
+                
+                border: 1px white;
+                background-color: greenyellow;
+                padding: 10px 100px;
+            
+            
+            }
+            .a5:hover {
+                 background-color: rgb(200, 217, 175);
+                 
+            }
+           
+
+
+            .b {
+                border: 2px solid rgb(20, 15, 1);
+                height: 400px;
+                width: 280px;
+                display: block;
+                margin-left: 25px;
+            }
+
+            .b1 {
+                font-size: 20px;
+                color: rgb(103, 99, 99);
+                margin-left: 60px;
+                margin-top: 50px;
+            }
+            .b2 {
+                font-size: 60px;
+                margin-left: 70px;
+                color: rgb(56, 54, 54);
+                margin-top: 25px;
+            }
+            .b3 {
+                font-size: 15px;
+                color: rgb(81, 77, 77);
+                margin-left: 60px;
+                margin-top: 25px;
+            }
+            .b4 {
+                font-size: 13px;
+                color: rgb(73, 70, 70);
+                margin-left: 75px;
+                margin-top: 25px;
+            }
+            .b5 {
+                font-size: 14px;
+                margin: 5px;
+                color: rgb(80, 76, 76);
+                margin-top: 25px;
+                
+                border: 1px white;
+                background-color: greenyellow;
+                padding: 10px 100px;
+            
+            }
+            .b5:hover {
+                 background-color: rgb(200, 217, 175);
+            }
+
+            .c {
+                border: 2px solid rgb(20, 15, 1);
+                height: 400px;
+                width: 280px;
+                display: block;
+                margin-left: 25px;
+            }
+
+            .c1 {
+                font-size: 20px;
+                color: rgb(103, 99, 99);
+                margin-left: 60px;
+                margin-top: 50px;
+            }
+            .c2 {
+                font-size: 60px;
+                margin-left: 70px;
+                color: rgb(56, 54, 54);
+                margin-top: 25px;
+            }
+            .c3 {
+                font-size: 15px;
+                color: rgb(81, 77, 77);
+                margin-left: 45px;
+                margin-top: 25px;
+            }
+            .c4 {
+                font-size: 13px;
+                color: rgb(73, 70, 70);
+                margin-left: 80px;
+                margin-top: 25px;
+            }
+            .c5 {
+                font-size: 14px;
+                margin: 5px;
+                color: rgb(80, 76, 76);
+                margin-top: 25px;
+                
+                border: 1px white;
+                background-color: greenyellow;
+                padding: 10px 100px;
+            
+              }
+            .c5:hover {
+                 background-color: rgb(200, 217, 175);
+            }
+        
+            .y {
+                display: flex;
+                /* border:  2px solid rgb(169, 190, 85); */
+                height: 400px;
+                width: 1100px;
+                margin-left: 90px;
+
+            }
+               
+            .d {
+                border: 2px solid rgb(20, 15, 1);
+                height: 400px;
+                width: 280px;
+                display: block;
+                margin-left: 70px;
+             }
+             .d1 {
+                font-size: 15px;
+                color: rgb(103, 99, 99);
+                margin-left: 85px;
+                margin-top: 85px;
+             }
+             
+
+             .e {
+                border: 2px solid rgb(20, 15, 1);
+                height: 400px;
+                width: 280px;
+                display: block;
+                margin-left: 25px;
+             }
+             .e1 {
+                font-size: 15px;
+                color: rgb(103, 99, 99);
+                margin-left: 85px;
+                margin-top: 85px;
+             }
+
+             .f {
+                border: 2px solid rgb(20, 15, 1);
+                height: 400px;
+                width: 280px;
+                display: block;
+                margin-left: 25px;
+             }
+             .f1 {
+                font-size: 15px;
+                color: rgb(103, 99, 99);
+                margin-left: 85px;
+                margin-top: 80px;
+             }
+
+
+             .m {
+            height: 50px;
+            width: 1100px;
+            /* border: 2px solid indigo; */
+            margin-left: 80px;
+            margin-top: 100px;
+        }
+   .footer {
+     /* position: -webkit-sticky; */
+     position: fixed;
+     float: right;
+     bottom: 0;
+     right: 0;
+     background-color: greenyellow;
+     padding: 15px 25px;
+   }
+
+</style>
+ </head>
+ <body>
+     <div class="container">
+        <div class="header">
+           <div id="headercenter"><img src="D:\Web Designing Codes\CSS\spa logo1.jpg" height="40px">The Health Spa</div>
+           <div id="headerright"><a href="#log in" style="color:rgb(124, 158, 73);">Log in</a></div>
+
+           <ul><li><a href="Spa page 1.html">HOME</a></li>
+            <li><a href="spa page 2.html">THE SPA</a>  </li>  
+                <li><a href="spa page 3.html">BOOK ONLINE</a></li>  
+                    <li><a class="active" href="spa page 4.html">PACKAGES</a>  </li>
+                        <li><a href="spa page 5.html">ABOUT US</a></li>  
+                            <li><a href="spa page 6.html">CONTACT</a> </li> </ul>
+        <div class="aleft">PACKAGES
+        <div class="aright">I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me and you can<br> start adding your own content and make changes to the font. Feel free to drag and drop me anywhere you like on your<br> page. I’m a great place for you to write more. Tell a story and let your users get to know you.</div></div></div><br><br>
+
+        <div class="x">
+
+        <div class="a">
+            <div class="a1">Day Package</div>
+            <div class="a2"><sup>$</sup><b>100</b></div>
+            <div class="a3">Use this day pass to relax and unwind</div>
+            <div class="a4">Valid for one month</div>
+            <button type="button" class="a5">Book Now</button></div>
+            
+
+             <div class="b">
+                <div class="b1">Day Package for Two</div>
+                <div class="b2"><sup>$</sup><b>210</b></div>
+                <div class="b3">Enjoy this day pass in the best company</div>
+                <div class="b4">Valid for one month</div>
+                <button type="button" class="b5">Book Now</button></div>
+
+                <div class="c">
+                    <div class="c1">Couples Special</div>
+                    <div class="c2"><sup>$</sup><b>230</b></div>
+                    <div class="c3">A romantic experience for you and your significant other</div>
+                    <div class="c4">Valid for one month</div>
+                    <button type="button" class="c5">Book Now</button></div></div>
+
+                    <div class="y">
+                    
+                    <div class="d">
+                        
+                        <div class="d1">I am a benefit<br><br>I am a benefit<br><br>I am a benefit</div></div>
+
+                    <div class="e">
+                        
+                        <div class="e1">I am a benefit<br><br>I am a benefit<br><br>I am a benefit<br><br>I am a benefit</div></div>
+
+                    <div class="f">
+                        
+                        <div class="f1">I am a benefit<br><br>I am a benefit<br><br>I am a benefit<br><br>I am a benefit<br><br>I am a benefit</div></div></div>
+
+                        <div class="m">
+                            <div class="footer">Let's Chat</div>
+
+
+                
+            
+ </body>
+ </html>

@@ -1,0 +1,286 @@
+!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+         * {
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+         .container {
+            /* border: 2px solid black; */
+            height: 1400px;
+         }
+            .header {
+            /* border: 2px solid brown; */
+            height: 250px;
+        }
+        #headercenter{
+            /* border: 2px solid rgb(166, 226, 209); */
+            font-size: 40px;
+            text-align: center;
+            color: rgb(152, 202, 76);
+            width: 300px;
+            margin: 10px;
+            margin-left: 430px;
+            
+
+
+        }
+        #headerright {
+            height: 50px;
+            width: 300px;
+            margin-left: 820px;
+            margin-top: -58.5px;
+            color: rgb(152, 202, 76);
+            text-align: center;
+            font-size: 16px;
+            padding: 16px ;
+            }  
+
+            .nav {
+            /* border: 2px solid rgb(99, 42, 165);   */
+            height: 100px;
+        }
+        ul {
+            list-style-type: none ;
+            margin-top: 30px;
+            padding: 10px;
+            overflow: hidden;
+            background-color: whitesmoke;
+            width: 900px;
+            margin: auto;
+        }
+        li {
+           float: left;
+        }
+
+        li a {
+            display: block;
+            color: black;
+            text-align: center;
+            padding: 10px 2px ;
+            text-decoration: none;
+            left: 30px;
+            margin-left: 80px;
+            font-size: 12px;
+
+        }
+        li a:hover {
+            color: rgb(111, 137, 72);
+            border-left: 50px;
+        }
+        .active {
+           background-color: rgb(233, 229, 229);
+           width: 80px;
+        }
+        .aleft {
+            /* border: 2px solid gold; */
+            height: 110px;
+            width: 1130px;
+            display: flex;
+            padding: 20px;
+            font-size: 25px;
+            color: rgb(131, 163, 83);
+            margin-left: 90px;
+            
+
+        }
+         
+        .aright {
+            /* border: 2px solid gold; */
+            height: 100px;
+            width: 950px;
+            /* display: flex; */
+            margin-top: -20px;
+            padding: 14px;
+            font-size: 15px;
+            margin-left: 35px;
+            color: rgb(18, 24, 9);
+            
+             }
+
+      
+        .b {
+            display: flex;
+            width: 1050px;
+            height: 260px;
+            /* border:  2px solid rgb(140, 96, 38); */
+            margin-left: 120px;
+        }   
+        .b1 {
+            margin-left: 20px;
+            display: flex;
+            /* border: 2px solid blueviolet; */
+            opacity: 1.0;
+        }
+
+            .b1:hover {
+                opacity: 0.5;
+            }
+         
+        .b2 {
+            margin-left: 14px;
+            opacity: 1.0;
+        }
+        .b2:hover {
+                opacity: 0.5;
+            }
+         
+        .b3 {
+            margin-left: 14px;
+            opacity: 1.0;
+        }
+        .b3:hover {
+                opacity: 0.5;
+            }
+         
+        .b4 {
+            margin-left: 14px;
+            opacity: 1.0;
+        }
+        .b4:hover {
+                opacity: 0.5;
+            }
+         
+        .c {
+            
+            /* border:  2px solid rgb(61, 195, 157); */
+            height: 260px;
+            width: 1050px;
+            display: flex;
+            margin-left: 120px;
+           
+
+        }
+        .c1 {
+            margin-left: 20px;
+            opacity: 1.0;
+            
+        }
+        .c1:hover {
+                opacity: 0.5;
+            }
+         
+        .c2 {
+            margin-left: 14px;
+            opacity: 1.0;
+        }
+        .c2:hover {
+                opacity: 0.5;
+            }
+         
+        .c3 {
+            margin-left: 14px;
+            opacity: 1.0;
+        }
+        .c3:hover {
+                opacity: 0.5;
+            }
+         
+        .c4 {
+            margin-left: 14px;
+            opacity: 1.0;
+        }
+        .c4:hover {
+                opacity: 0.5;
+            }
+         
+
+        .d {
+            display: flex;
+            width: 1050px;
+            height: 260px;
+            /* border:  2px solid rgb(68, 187, 143); */
+            margin-left: 120px;
+        }
+        .d1 {
+            margin-left: 20px;
+            opacity: 1.0;
+        }
+        .d1:hover {
+                opacity: 0.5;
+            }
+         
+        .d2 {
+            margin-left: 14px;
+            opacity: 1.0;
+        }
+        .d2:hover {
+                opacity: 0.5;
+            }
+         
+        .d3 {
+            margin-left: 14px;
+            opacity: 1.0;
+        }
+        .d3:hover {
+                opacity: 0.5;
+            }
+         
+        .d4 {
+            margin-left: 14px;
+            opacity: 1.0;
+        }
+        .d4:hover {
+                opacity: 0.5;
+            }
+         
+            .m {
+            height: 50px;
+            width: 1100px;
+            /* border: 2px solid indigo; */
+            margin-left: 80px;
+            margin-top: 100px;
+        }
+   .footer {
+     /* position: -webkit-sticky; */
+     position: fixed;
+     float: right;
+     bottom: 0;
+     right: 0;
+     background-color: greenyellow;
+     padding: 15px 25px;
+   }     
+    </style>
+</head>
+<body>
+     <div class="container">
+        <div class="header">
+           <div id="headercenter"><img src="D:\Web Designing Codes\CSS\spa logo1.jpg" height="40px">The Health Spa</div>
+           <div id="headerright"><a href="#log in" style="color:rgb(124, 158, 73);">Log in</a></div>
+
+           <ul><li><a href="Spa page 1.html">HOME</a></li>
+            <li><a class="active" href="spa page 2.html">THE SPA</a>  </li>  
+                <li><a href="spa page 3.html">BOOK ONLINE</a></li>  
+                    <li><a href="spa page 4.html">PACKAGES</a>  </li>
+                        <li><a href="spa page 5.html">ABOUT US</a></li>  
+                            <li><a href="spa page 6.html">CONTACT</a> </li> </ul>
+        <div class="aleft">THE SPA 
+        <div class="aright">I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me and you can<br> start adding your own content and make changes to the font. Feel free to drag and drop me anywhere you like on your<br> page. I’m a great place for you to write more. Tell a story and let your users get to know you.</div></div></div>
+        <div class="b">
+        
+            <div class="b1"><img src="D:\Web Designing Codes\CSS\spa page 2.2.jpg" height="250px" width="210px"></div>
+            <div class="b2"><img src="D:\Web Designing Codes\CSS\spa page 2.1.jpg" height="250px" width="210px"></div>
+            <div class="b3"><img src="D:\Web Designing Codes\CSS\spa page 2.3.jpg" height="250px" width="210px"></div> 
+            <div class="b4"><img src="D:\Web Designing Codes\CSS\spa page 2.4.jpg" height="250px" width="210px"></div></div>
+            <div class="c">
+                <div class="c1"><img src="D:\Web Designing Codes\CSS\spa page 2.5.jpg" height="250px" width="210px"></div>
+                <div class="c2"><img src="D:\Web Designing Codes\CSS\spa page 2.6.jpg" height="250px" width="210px"></div>
+                <div class="c3"><img src="D:\Web Designing Codes\CSS\spa page 2.7.jpg" height="250px" width="210px"></div>
+                <div class="c4"><img src="D:\Web Designing Codes\CSS\spa page 2.1.jpg" height="250px" width="210px"></div></div>
+            <div class="d">
+                <div class="d1"><img src="D:\Web Designing Codes\CSS\spa page 2.6.jpg" height="250px" width="210px"></div>
+                <div class="d2"><img src="D:\Web Designing Codes\CSS\spa page 2.9.jpg" height="250px" width="210px"></div>
+                <div class="d3"><img src="D:\Web Designing Codes\CSS\spa page 2.4.jpg" height="250px" width="210px"></div>
+                <div class="d4"><img src="D:\Web Designing Codes\CSS\spa page 2.3.jpg" height="250px" width="210px"></div></div>
+            <div>
+        
+
+        <div class="m">
+            <div class="footer">Let's Chat</div>
+</body>
+</html>
